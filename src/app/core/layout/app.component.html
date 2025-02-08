@@ -1,0 +1,9 @@
+@if(layoutService.useLayoutHeaderSignal()){
+    <layout-header />
+}
+
+<router-outlet />
+
+@if (layoutService.useLayoutFooterSignal()) {
+    <layout-footer />
+}
