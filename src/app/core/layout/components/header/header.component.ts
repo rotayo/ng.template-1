@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/cor
   selector: 'layout-header',
   imports: [],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css',
+  styles: '',
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HeaderComponent{
