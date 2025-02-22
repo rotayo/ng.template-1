@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'home-index',
   imports: [],
   templateUrl: './index.component.html',
-  styleUrl: './index.component.css',
+  styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class IndexComponent {
